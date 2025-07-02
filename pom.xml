@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wrapper</groupId>
+  <artifactId>javawrapper</artifactId>
+  <version>1.0</version>
+  
+	<dependencies>
+<!--		<dependency>
+		    <groupId>org.openrewrite.recipe</groupId>
+		    <artifactId>rewrite-spring</artifactId>
+		    <version>5.0.11</version>
+		</dependency>-->
+		<dependency>
+		    <groupId>commons-daemon</groupId>
+		    <artifactId>commons-daemon</artifactId>
+		    <version>1.4.1</version>
+		</dependency>	    
+	</dependencies>
+	<build>
+<!--	<plugins>
+		<plugin>
+		    <groupId>org.openrewrite.maven</groupId>
+		    <artifactId>rewrite-maven-plugin</artifactId>
+		    <version>5.8.1</version>
+		</plugin>	
+	</plugins>
+-->	
+	</build>
+  
+</project>
