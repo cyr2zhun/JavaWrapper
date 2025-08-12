@@ -3,6 +3,14 @@
   <groupId>com.wrapper</groupId>
   <artifactId>javawrapper</artifactId>
   <version>1.0</version>
+    <repositories>
+    <repository>
+      <id>mvnrepository</id>
+      <name>MVN Repository</name>
+      <url>https://mvnrepository.com/artifact/</url>
+    </repository>
+    <!-- Add other repositories if needed -->
+  </repositories>
   
 	<dependencies>
 <!--		<dependency>
@@ -14,17 +22,35 @@
 		    <groupId>commons-daemon</groupId>
 		    <artifactId>commons-daemon</artifactId>
 		    <version>1.4.1</version>
-		</dependency>	    
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.fusesource/sigar -->
+		<dependency>
+		    <groupId>org.fusesource</groupId>
+		    <artifactId>sigar</artifactId>
+		    <version>1.6.4</version>
+		</dependency> 
+		<dependency>
+		    <groupId>org.fusesource</groupId>
+		    <artifactId>sigar</artifactId>
+		    <version>1.6.4</version>
+		    <classifier>native</classifier>
+		</dependency>
+		<dependency>
+		    <groupId>com.github.oshi</groupId>
+		    <artifactId>oshi-core</artifactId>
+		    <version>6.4.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>net.java.dev.jna</groupId>
+		    <artifactId>jna</artifactId>
+		    <version>5.13.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.samples</groupId>
+			<artifactId>spring-petclinic</artifactId>
+			<version>1.5.1</version>
+		</dependency>
 	</dependencies>
 	<build>
-<!--	<plugins>
-		<plugin>
-		    <groupId>org.openrewrite.maven</groupId>
-		    <artifactId>rewrite-maven-plugin</artifactId>
-		    <version>5.8.1</version>
-		</plugin>	
-	</plugins>
--->	
-	</build>
-  
+	</build> 
 </project>

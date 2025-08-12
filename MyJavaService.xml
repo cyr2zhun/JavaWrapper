@@ -3,7 +3,7 @@
   <name>My Java Services</name>
   <description>This service runs my Java application</description>
   <executable>java</executable>
-  <arguments>-cp "C:\Users\xxx\workspace\JavaWrapper\*;C:\Users\xxx\workspace\JavaWrapper\target\javawrapper-1.0.jar" com.wrapper.MyDaemon</arguments>
+  <arguments>-cp "C:\Users\cyrus\workspace\JavaWrapper\*;C:\Users\cyrus\workspace\JavaWrapper\target\javawrapper-1.0.jar" com.wrapper.MyDaemon</arguments>
   <logmode>rotate</logmode>
   
   <!-- Optional: Set Java home if needed 
